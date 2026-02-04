@@ -11,20 +11,12 @@
 // console.log("Quotient:", quotient);
 
 
-import fs from'fs';
-import path from'path';
+import os from 'os';
 
-const cpPath = path.join(  
-    "functions",
-    "SampleFolder",
-    "..",
-    "function.js"
-);
+const arch = os.arch();
+console.log("arch",arch);
+const platform = os.platform();
+console.log("platform",platform);
 
-console.log("crossPlatform path name:", cpPath);
-
-fs.readFile(cpPath, 'utf8', (err, data) => {
-    console.log("err:" ,err);
-    console.log("data:", data);
-});   
-    
+const freeMemory = os.freemem()/1024/1024/1024;
+console.log("Free Memory (GB):", freeMemory);
