@@ -11,12 +11,28 @@
 // console.log("Quotient:", quotient);
 
 
-import os from 'os';
+// import os from 'os';
 
-const arch = os.arch();
-console.log("arch",arch);
-const platform = os.platform();
-console.log("platform",platform);
+// const arch = os.arch();
+// console.log("arch:",arch);
+// const platform = os.platform();
+// console.log("platform:",platform);
 
-const freeMemory = os.freemem()/1024/1024/1024;
-console.log("Free Memory (GB):", freeMemory);
+// const freeMemory = os.freemem()/1024/1024/1024;
+// console.log("Free Memory (GB):", freeMemory);
+
+// import { multi } from './utils.js';
+// const {add, multi} = require('./utils.js');
+// const multi = require('./utils.js'); 
+
+import { add, multi } from './utils.js';
+
+const addition = add(5, 7);
+console.log("addition", addition);
+
+const multiplication = multi(5, 7);
+console.log("multiplication", multiplication);
+
+// let obj = {
+//     key: "add",
+// };
