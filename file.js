@@ -33,6 +33,6 @@ console.log("addition", addition);
 const multiplication = multi(5, 7);
 console.log("multiplication", multiplication);
 
-// let obj = {
-//     key: "add",
-// };
+let obj = {
+    key: "add",
+};
