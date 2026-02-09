@@ -39,11 +39,11 @@
 
 const a = () => {
     b();
-    console.log("a :");
+    console.log("🚀a :");
 };
 
 const b = () => {
-    console.log("b :");
+    console.log("🚀b :");
 };
 
 a();
