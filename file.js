@@ -25,14 +25,32 @@
 // const {add, multi} = require('./utils.js');
 // const multi = require('./utils.js'); 
 
-import { add, multi } from './utils.js';
+// import { add, multi } from './utils.js';
 
-const addition = add(5, 7);
-console.log("addition", addition);
+// const addition = add(5, 7);
+// console.log("addition", addition);
 
-const multiplication = multi(5, 7);
-console.log("multiplication", multiplication);
+// const multiplication = multi(5, 7);
+// console.log("multiplication", multiplication);
 
-let obj = {
-    key: "add",
+// let obj = {
+//     key: "add",
+// };
+
+const a = () => {
+    b();
+    console.log("a :");
 };
+
+const b = () => {
+    console.log("b :");
+};
+
+a();
+
+// Empty
+
+// a is pushed to the call stack
+// b is pushed to the call stack
+// b is popped from the call stack and executed
+// a is popped from the call stack and executed
