@@ -50,6 +50,10 @@ const b = () => {
     setTimeout(() => {
         console.log("🚀 ~ b ~ timer2:");
     }, 0);
+
+    Promise.resolve().then(() => {
+        console.log("🚀 ~ Promise Portion:");
+    });
 };
 
 a();
