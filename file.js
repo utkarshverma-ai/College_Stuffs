@@ -39,14 +39,22 @@
 
 const a = () => {
     b();
-    console.log("🚀a :");
+    console.log("🚀 ~ a ~ a:");
 };
 
 const b = () => {
-    console.log("🚀b :");
+    console.log("🚀 ~ b ~ b:");
+    setTimeout(() => {
+        console.log("🚀 ~ b ~ timer1:");
+    }, 10000);
+    setTimeout(() => {
+        console.log("🚀 ~ b ~ timer2:");
+    }, 0);
 };
 
 a();
+console.log("🚀 ~ final:");
+
 
 // Empty
 
