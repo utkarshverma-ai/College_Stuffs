@@ -66,3 +66,16 @@ console.log("🚀 ~ final:");
 // b is pushed to the call stack
 // b is popped from the call stack and executed
 // a is popped from the call stack and executed
+
+
+const sample = (callback)=>{
+    callback("Sample Content","Demo");
+};
+const add = (a,b)=> {
+    console.log("🚀 ~data:",a+b);
+};
+sample(add);
+const login = async () =>{
+    await checkHeader();
+    await checkPassword();
+};
