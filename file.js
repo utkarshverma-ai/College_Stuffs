@@ -80,3 +80,4 @@ const login = async () =>{
     await checkPassword();
 };
 
+console.log("hey");
