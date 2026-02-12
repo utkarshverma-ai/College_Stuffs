@@ -33,4 +33,8 @@ login()
     .then((res) => {
         console.log("response:", res);
     });
-    
+
+    Promise.resolve(10)
+    .then((x) => x + 10)
+    .then((x) => x + 5)
+    .then(console.log); 
