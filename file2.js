@@ -38,3 +38,6 @@ login()
     .then((x) => x + 10)
     .then((x) => x + 5)
     .then(console.log); 
+
+    console.log("heyu");
+    
