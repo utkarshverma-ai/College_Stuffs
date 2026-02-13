@@ -40,4 +40,5 @@ login()
     .then(console.log); 
 
     console.log("heyu");
+    console.log("Server is running");
     
