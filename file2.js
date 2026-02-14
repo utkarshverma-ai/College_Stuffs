@@ -37,10 +37,6 @@ login()
     Promise.resolve(10)
     .then((x) => x + 10)
     .then((x) => x + 5)
-    .then(console.log); 
-
-    console.log("heyu");
-    console.log("Server is running");
-    console.log("now");
+    .then(console.log);
     
     
