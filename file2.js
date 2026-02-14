@@ -41,4 +41,6 @@ login()
 
     console.log("heyu");
     console.log("Server is running");
+    console.log("now");
+    
     
