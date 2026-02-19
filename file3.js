@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     console.log("method:", method);
 
     if (url === "/home") {
-        res.end("Welcome to Home Page");
+        res.end("Home Page Content");
     }
 
     if (url === "/systemconfig") {
