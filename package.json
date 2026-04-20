@@ -1,0 +1,22 @@
+{
+  "name": "practice_02",
+  "version": "1.0.0",
+  "description": "Node.js Express application",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
