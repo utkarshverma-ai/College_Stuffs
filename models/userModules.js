@@ -19,8 +19,8 @@ const userSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 userSchema.pre('find', function(next) {
-    console.log("Find querry is triggered now: ");
-    next;
+    console.log("Find querry is now executing..."); 
+    next();
 });
     
 
